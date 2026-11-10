@@ -4,9 +4,12 @@
     "webpack-cli": "^7.3.1",
     "webpack-dev-server": "^6.1.0"
   },
-
   "scripts": {
-  "build:food": "webpack --config webpack.config.js",
-  "build:es6": "webpack --config webpack.es6.config.js"
-}
+    "build:food": "webpack --config webpack.config.js",
+    "build:es6": "webpack --config webpack.es6.config.js",
+    "build:jquery": "webpack --config webpack.jquery.config.js"
+  },
+  "dependencies": {
+    "jquery": "^4.0.0"
+  }
 }
